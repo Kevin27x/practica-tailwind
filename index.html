@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer uso de Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container mx-auto flex justify-center bg-sky-700 w-screen ">
+
+        
+        <button class="bg-sky-400 m-8 px-10 py-2 rounded-3xl text-white hover:bg-sky-500 
+        hover:scale-95 duration-200 ease-in-out font-bold shadow-md shadow-white ">
+            Botón
+        </button>
+    </div>
+    <h1 class="bg-sky-200 text-red-500 text-center text-3xl ">
+        Hola que tal
+    </h1>
+    <div class="container w-1/3 mx-auto my-5 box-content rounded-3xl shadow-zinc-400 shadow-xl pb-1">
+        <div >
+            <img class="rounded-t-3xl w-full" src="./fotografo-paisajes.jpg" alt=""></div>
+        <div>
+            <h2 class="text-center my-3 text-2xl">The Coldest Sunset</h2>
+        </div>
+        <div>
+            <p class="text-left my-3 mx-5 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam itaque consectetur fugit molestiae. Numquam natus provident magni omnis temporibus consequatur blanditiis aspernatur, repellendus perspiciatis quisquam, dolor molestiae ratione accusamus excepturi?</p>
+        </div>
+        <div class="mx-5 my-5 font-bold">
+            <span class="px-2 py-2 bg-sky-200 rounded-3xl">#phothography</span>
+            <span class="px-2 py-2 bg-sky-200 rounded-3xl">#travel</span>
+            <span class="px-2 py-2 bg-sky-200 rounded-3xl">#winter</span>
+        </div>
+    </div>
+    <div class="grid grid-cols-3 gap-2 mx-2 my-5">
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">A</div>
+        <div class="bg-red-400">A</div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 mx-2 my-5">
+        <div class="bg-blue-400">A</div>
+        <div class="bg-blue-400">A</div>
+        <div class="bg-blue-400">A</div>
+        <div class="bg-blue-400">A</div>
+        <div class="bg-blue-400">A</div>
+    </div>
+
+    <div class="grid grid-cols-4 gap-2 mx-2 my-5">
+        <div class="bg-pink-300 col-span-2 ">B</div>
+        <div class="bg-pink-300">A</div>
+        <div class="bg-pink-300">A</div>
+        <div class="bg-pink-300 col-span-4">A</div>
+        <div class="bg-pink-300 col-span-2">A</div>
+        <div class="bg-pink-300 col-span-2">A</div>
+    </div>
+    
+
+</body>
+</html>
